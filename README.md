@@ -1,13 +1,5 @@
-bars: A Riak Core Application
-======================================
+# Build
+make rel
 
-Application Structure
----------------------
-
-This is a blank riak core application. To get started, you'll want to edit the
-following files:
-
-* `src/riak_bars_vnode.erl`
-  * Implementation of the riak_core_vnode behaviour
-* `src/bars.erl`
-  * Public API for interacting with your vnode
+# Run
+./rel/bars/bin/bars console
